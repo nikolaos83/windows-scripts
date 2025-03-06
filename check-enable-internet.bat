@@ -1,3 +1,7 @@
+# This will check if interface "Wi-Fi" has internet connectivity and reset the interface if there's an issue
+# Useful for GPU miners with unreliable wireless interfaces
+# Add to scheduled tasks to check for issues periodically
+
 set /a test=0
 
 :InternetTesti
